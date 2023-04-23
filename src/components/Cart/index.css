@@ -1,0 +1,18 @@
+.cart-card {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-image {
+  width: 20%;
+}
+
+@media (max-width: 767px) {
+  .cart-image {
+    width: 40%;
+  }
+}
